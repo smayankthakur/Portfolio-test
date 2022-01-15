@@ -1,0 +1,311 @@
+body{
+	font-family: sans-serif;
+}
+
+/* Nav bar start */
+.nav-bar {
+	min-width: 80%;
+	max-width: 90%;
+	margin: 0 5% 0 5%;
+	padding: 2px 5px 2px 5px;
+	height: 80px;
+	font-size: 1.2rem;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 450px) {
+	.nav-bar {
+		min-width: 0;
+		max-width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+  }
+
+.nav-list {
+	text-decoration: none;
+}
+
+.nav-logo {
+	float: left;
+	display: inline;
+	text-decoration: none;
+	height: 50px;
+}
+
+.nav-list2 {
+	float: right;
+}
+
+
+.nav-item {
+	display: inline;
+	text-decoration: none;
+	padding: 0 15px;
+
+}
+
+.nav-btn {
+	background: none;
+	border: 2px solid blueviolet;
+	border-radius: 30px;
+	color: blueviolet;
+}
+
+.nav-btn:hover {
+	background: blueviolet;
+	color: #fff;
+	transition: 0.5s;
+}
+
+/* Nav bar ends */
+
+/* Hero Starts */
+
+.hero {
+	align-items: center;
+	padding-top: 8%;
+}
+
+.container {
+	text-align: center;
+
+}
+.container h1{
+	font-family: "eurostilebold", sans-serif;
+	font-size: 3em;
+	font-weight: 600;
+}
+@font-face {
+    font-family: 'eurostilebold';
+    src: url('eurostilebold-webfont.woff2') format('woff2'),
+         url('eurostilebold-webfont.woff') format('woff');
+    /* font-weight: normal;
+    font-style: normal; */
+
+}
+
+
+
+
+@font-face {
+    font-family: 'eurostylenormal';
+    src: url('eurostyle_normal-webfont.woff2') format('woff2'),
+         url('eurostyle_normal-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.container h2 {
+	font-family: "europa", sans-serif;
+	font-size: 1.5em;
+	font-weight: 400 !important;
+}
+
+.avatar {
+	width: 210px;
+	margin: 32px 0 32px 0;
+}
+
+.hero-foot {
+	max-width: 100%;
+}
+.hero-img {
+	width: 50%;
+	margin: 0.15em;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+	.hero-img {
+	  width: 100%;
+	}
+  }
+
+/* Hero ends */
+
+/* Intro starts */
+.intro {
+	padding: 9rem 1.5rem;
+	background: #7510F7;
+	margin-bottom: 1.5rem;
+	height: 90vh;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+	.intro {
+	  height: 100%;
+	}
+  }
+
+
+.blue {	
+	color: #fff;
+	text-align: center;
+
+}
+
+.centered-container2 {
+	-webkit-box-pack: center;
+	text-align: center !important;
+	display: flex;
+	justify-content: center;
+}
+
+.text-content {
+	-webkit-box-flex: 0;
+    flex: none;
+    width: 60%;
+}
+
+.text-content > h1 {
+	margin: 0 0 1.5 rem;
+	font-size: 2rem;
+	font-weight: 800;
+}
+
+.text-content > h2 {
+	font-size: 1.25rem;
+	font-weight: 200;
+}
+/* intro ends */
+
+/* intro-box start */
+
+.intro-box {
+	margin-top: -15rem;
+	padding-top: 5rem;
+	text-align: center !important;
+	display: block;
+}
+
+.white {
+	background: #fff;
+    margin: 0 5rem 0 5rem;
+    position: relative;
+    width: auto;
+	display: flex;
+	justify-content: center;
+	display: block;
+	border: 1px solid #E6ECF8;
+	border-radius: 2.5rem;
+	box-shadow: 0 2.5px 2.5px 0 rgb(58, 58, 58);
+	padding: 2rem;
+
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 450px) {
+	.white {
+		margin: 0 2rem 0 2rem;
+	}
+  }
+
+.box {
+	padding: 0.5rem, 1.5rem, 0.5rem, 1.5rem;
+}
+
+.mega-column {
+	display: flex;
+	flex-direction: row;
+	height: inherit;
+	flex-wrap: nowrap;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+	.mega-column {
+	  flex-direction: column;
+	}
+  }
+
+.column {
+	width: 33% 20% 33% ;
+	padding: 2rem;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+	.column {
+		width: 100%;
+	}
+  }
+
+.bordershow{
+	border-right: 1px solid #E6ECF8;
+	border-left: 1px solid #E6ECF8;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+	.bordershow{
+		border-top: 1px solid #E6ECF8;
+		border-bottom: 1px solid #E6ECF8;
+		border-right: none;
+		border-left: none;
+	}
+  }
+
+.intro-icon{
+	margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+.intro-img {
+	max-width: 50px;
+}
+
+.intro-h1 {
+	margin-top: 1rem;
+	margin-bottom: 1.5rem;
+	font-size: 1.5rem !important;
+	font-weight: 400 !important;
+}
+
+.span-box {
+	color: #7510F7 !important;
+	margin-top: 60px;
+	margin-bottom: 12px;
+	font-size: 1.2rem !important;
+	font-weight: 400 !important;
+}
+
+.intro-list {
+	list-style: none;
+}
+/* intro-box ends */
+/* Recent Work starts */
+
+.recent-head {
+	padding: 9rem 0 5rem 0;
+	font-size: 1em;
+	color: #000;
+}
+
+.recent-head > h2 > a {
+	text-decoration: none;
+	color: #7510F7;
+}
+
+.recent-head > h2 > a:hover {
+	color: #7510F7;
+}
+
+.project-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 1fr 1fr;
+	justify-items: center;
+}
+
+.grid-img {
+	border-radius: 12px;
+	margin: 10px;
+	width: 90%;
+}
+
+/* Recent Work ends */
