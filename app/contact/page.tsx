@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 import { Section } from '@/components/Section';
 import { contact } from '@/lib/content';
-import { Mail, LinkedIn, MapPin, Send, ArrowUpRight } from 'lucide-react';
+import { Mail, Linkedin, MapPin, Send, ArrowUpRight } from 'lucide-react';
 
 export default function ContactPage() {
     return (
@@ -63,7 +63,7 @@ export default function ContactPage() {
                             className="glass-card p-6 hover-lift group"
                         >
                             <div className="w-12 h-12 rounded-lg bg-executive-gold/10 border border-executive-gold/20 flex items-center justify-center mb-4 group-hover:bg-executive-gold/20 transition-colors duration-300">
-                                <LinkedIn className="w-6 h-6 text-executive-gold" />
+                                <Linkedin className="w-6 h-6 text-executive-gold" />
                             </div>
                             <h3 className="text-executive-white font-medium text-lg mb-2">LinkedIn</h3>
                             <p className="text-executive-muted text-sm flex items-center gap-2">

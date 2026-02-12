@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { LinkedIn, Twitter, Mail, ArrowUpRight } from 'lucide-react';
+import { Linkedin, Twitter, Mail, ArrowUpRight } from 'lucide-react';
 import { founderProfile, socialLinks, navigation, contact } from '@/lib/content';
 
 export function Footer() {
@@ -37,7 +37,7 @@ export function Footer() {
                                     className="p-2 rounded-lg bg-executive-slate/50 border border-executive-border/50 hover:border-executive-gold/50 transition-all duration-300"
                                     aria-label={social.platform}
                                 >
-                                    {social.icon === 'linkedin' && <LinkedIn className="w-4 h-4 text-executive-light" />}
+                                    {social.icon === 'linkedin' && <Linkedin className="w-4 h-4 text-executive-light" />}
                                     {social.icon === 'twitter' && <Twitter className="w-4 h-4 text-executive-light" />}
                                     {social.icon === 'email' && <Mail className="w-4 h-4 text-executive-light" />}
                                 </motion.a>
