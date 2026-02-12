@@ -32,6 +32,18 @@ setTheme((prev: Theme) => prev === 'dark' ? 'light' : 'dark');
 <a href={`mailto:${contact.email}`}>
 ```
 
+### 3. LinkedIn icon import ✓ FIXED
+**Files:** `app/contact/page.tsx`, `components/Footer.tsx`
+```typescript
+// Before (wrong)
+import { LinkedIn } from 'lucide-react';
+<LinkedIn className="w-6 h-6" />
+
+// After (correct)
+import { Linkedin } from 'lucide-react';
+<Linkedin className="w-6 h-6" />
+```
+
 ---
 
 ## Environment Setup Required
@@ -79,3 +91,4 @@ After `npm install` completes:
 All actual code bugs have been fixed:
 - ✓ Theme toggle type annotation
 - ✓ Footer email link reference
+- ✓ LinkedIn icon import (lowercase 'n')
